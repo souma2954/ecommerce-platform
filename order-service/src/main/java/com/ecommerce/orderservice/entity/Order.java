@@ -20,8 +20,7 @@ public class Order {
     private double totalPrice;
     private String status; // PENDING, CONFIRMED, FAILED
 	
-    
-    public String getId() {
+	public String getId() {
 		return id;
 	}
 	public void setId(String id) {
