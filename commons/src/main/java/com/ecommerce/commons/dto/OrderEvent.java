@@ -13,6 +13,14 @@ public class OrderEvent {
 		this.productId = productId;
 		this.quantity = quantity;
 	}
+	
+	
+	public OrderEvent() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+
 	public String getOrderId() {
 		return orderId;
 	}
